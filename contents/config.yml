@@ -1,0 +1,52 @@
+title: "Yao Fan's Homepage"
+page-top-title: Yao Fan
+top-section-bg-text: Philosophy, AI, and Social Epistemology
+backgrounds:
+  - static/assets/background/background_0.jpeg
+  - static/assets/background/background_1.jpeg
+background-interval-ms: 7000
+background-overlay: 0.58
+copyright-text: '&copy; Yao Fan 2026. Site based on Sen Li''s academic homepage template.'
+github-link:
+  text: GitHub
+  href: https://github.com/yao-fan
+license-link:
+  text: License
+  href: https://github.com/yao-fan/yao-fan.github.io/blob/main/LICENSE
+sections:
+  - id: home
+    nav: HOME
+    title: Yao Fan&ensp;|&ensp;范尧
+    href: '#page-top'
+  - id: research
+    nav: RESEARCH
+    title: RESEARCH
+    icon: bi-lightbulb-fill
+  - id: publications
+    nav: PUBLICATIONS
+    title: PUBLICATIONS
+    icon: bi-file-text-fill
+  - id: teaching
+    nav: TEACHING
+    title: TEACHING
+    icon: bi-easel-fill
+  - id: talks
+    nav: TALKS
+    title: SELECTED TALKS
+    icon: bi-mic-fill
+  - id: awards
+    nav: AWARDS
+    title: AWARDS
+    icon: bi-award-fill
+  - id: service
+    nav: SERVICE
+    title: SERVICE
+    icon: bi-people-fill
+  - id: outreach
+    nav: OUTREACH
+    title: OUTREACH
+    icon: bi-megaphone-fill
+  - id: cv
+    nav: CV
+    title: CV
+    icon: bi-download
