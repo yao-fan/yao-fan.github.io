@@ -11,12 +11,7 @@ The initial job-market version uses these sections:
 - **Home/About**: current position, research identity, contact links, education, and CV download.
 - **Research**: areas of specialization and competence, current research themes, and dissertation.
 - **Publications**: under-review and published work with publisher/preprint links.
-- **Teaching**: teaching areas, experience, and guest teaching.
-- **Talks**: selected talks from the CV.
 - **Awards**: selected fellowships and scholarships.
-- **Service**: reviewing, graduate service, and relevant research roles.
-- **Outreach**: public philosophy and guest lectures.
-- **CV**: direct link to the downloadable PDF.
 
 ## Editing
 

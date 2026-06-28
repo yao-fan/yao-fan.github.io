@@ -26,27 +26,7 @@ sections:
     nav: PUBLICATIONS
     title: PUBLICATIONS
     icon: bi-file-text-fill
-  - id: teaching
-    nav: TEACHING
-    title: TEACHING
-    icon: bi-easel-fill
-  - id: talks
-    nav: TALKS
-    title: SELECTED TALKS
-    icon: bi-mic-fill
   - id: awards
     nav: AWARDS
     title: AWARDS
     icon: bi-award-fill
-  - id: service
-    nav: SERVICE
-    title: SERVICE
-    icon: bi-people-fill
-  - id: outreach
-    nav: OUTREACH
-    title: OUTREACH
-    icon: bi-megaphone-fill
-  - id: cv
-    nav: CV
-    title: CV
-    icon: bi-download
