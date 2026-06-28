@@ -250,6 +250,13 @@ section .main-body{
     box-shadow: 0 0.45rem 1.4rem rgba(18, 32, 36, 0.14);
 }
 
+.hobby-gallery figcaption {
+    margin-top: 0.45rem;
+    color: #5f6868;
+    font-size: 0.95rem;
+    line-height: 1.35rem;
+}
+
 .hobby-gallery-one img {
     aspect-ratio: 3 / 4;
 }

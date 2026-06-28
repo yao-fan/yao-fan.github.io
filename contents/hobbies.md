@@ -32,13 +32,16 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171633416.jpg" alt="Indoor climbing wall" loading="lazy">
+    <img src="contents/Photos/Climbing/mmexport1596171679852.jpg" alt="Me getting down a climbing wall" loading="lazy">
+    <figcaption>Me getting down a climbing wall..</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171638315.jpg" alt="Climbing gym route" loading="lazy">
+    <img src="contents/Photos/Climbing/mmexport1596171638315.jpg" alt="Getting down a climbing wall" loading="lazy">
+    <figcaption>get down..</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171679852.jpg" alt="Climbing session" loading="lazy">
+    <img src="contents/Photos/Climbing/mmexport1596171633416.jpg" alt="Further down a climbing wall" loading="lazy">
+    <figcaption>further down</figcaption>
   </figure>
 </div>
 
