@@ -69,11 +69,11 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 <div class="hobby-gallery">
   <figure>
     <img src="contents/Photos/Artifact/sincerity-and-diligence-artifact.jpg" alt="Leaf and gold resin artifact" loading="lazy">
-    <figcaption>"Sincerity and Diligence"</figcaption>
+    <figcaption>Calligraphy: "惟诚惟勤"(Sincerity and Diligence), Seal:"烟士披里纯"(Inspiration)</figcaption>
   </figure>
   <figure>
     <img src="contents/Photos/Artifact/second-leaf-gold-artifact.jpg" alt="Leaf and gold resin artifact with writing" loading="lazy">
-    <figcaption>Another artifact from the same batch</figcaption>
+    <figcaption>Calligraphy: "安得促膝，说彼平生"(If only we could draw close together, and speak of all our lives have been.), Seal:Two cats hugging</figcaption>
   </figure>
 </div>
 
@@ -82,6 +82,10 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 <div class="hobby-gallery hobby-gallery-one">
   <figure>
     <img src="contents/Photos/Logic/schola-logicae-oxford.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
-    <figcaption>Me at Oxford during Covid</figcaption>
+    <figcaption>Me at Oxford "School of Logic" during Covid</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Logic/RenaissanceFaire.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
+    <figcaption>Me at New Jersey Renaissance Faire</figcaption>
   </figure>
 </div>
