@@ -4,15 +4,15 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Mtb/IMG_20230704_115516491_HDR.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
+    <img src="contents/Photos/Mtb/me-after-snowshoe-ride.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
     <figcaption>Me after bike riding in Snowshoe, WV</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Mtb/IMG_20230704_114912917_HDR.jpg" alt="Mountain bike on an outdoor trail" loading="lazy">
+    <img src="contents/Photos/Mtb/bike-at-snowshoe.jpg" alt="Mountain bike on an outdoor trail" loading="lazy">
     <figcaption>My bike after riding in Snowshoe, WV</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Mtb/IMG_20230610_092246530_HDR.jpg" alt="Mountain biking on a forest trail" loading="lazy">
+    <img src="contents/Photos/Mtb/three-means-of-transportation.jpg" alt="Mountain biking on a forest trail" loading="lazy">
     <figcaption>Three means of transportation I own</figcaption>
   </figure>
 </div>
@@ -21,15 +21,15 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Paintball/mmexport1652967946889.jpg" alt="Paintball game scene" loading="lazy">
+    <img src="contents/Photos/Paintball/pittsburgh-paintball-friends.jpg" alt="Paintball game scene" loading="lazy">
     <figcaption>With friends at Pittsburgh Paintball Park</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Paintball/mmexport1652967951735.jpg" alt="Paintball gear and field" loading="lazy">
+    <img src="contents/Photos/Paintball/paintball-oops.jpg" alt="Paintball gear and field" loading="lazy">
     <figcaption>Oops</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Paintball/mmexport1652967962729.jpg" alt="Paintball group or field moment" loading="lazy">
+    <img src="contents/Photos/Paintball/paintball-surrender.jpg" alt="Paintball group or field moment" loading="lazy">
     <figcaption>Surrender</figcaption>
   </figure>
 </div>
@@ -38,15 +38,15 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171679852.jpg" alt="Me getting down a climbing wall" loading="lazy">
+    <img src="contents/Photos/Climbing/climbing-wall-getting-down.jpg" alt="Me getting down a climbing wall" loading="lazy">
     <figcaption>Me getting down a climbing wall..</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171638315.jpg" alt="Getting down a climbing wall" loading="lazy">
+    <img src="contents/Photos/Climbing/climbing-wall-get-down.jpg" alt="Getting down a climbing wall" loading="lazy">
     <figcaption>get down</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Climbing/mmexport1596171633416.jpg" alt="Further down a climbing wall" loading="lazy">
+    <img src="contents/Photos/Climbing/climbing-wall-further-down.jpg" alt="Further down a climbing wall" loading="lazy">
     <figcaption>further down</figcaption>
   </figure>
 </div>
@@ -55,20 +55,25 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Artifact/IMG_20240421_231039844.jpg" alt="Leaf and gold resin artifact" loading="lazy">
-    <figcaption>Artifact with a leaf and gold flakes</figcaption>
-  </figure>
-  <figure>
-    <img src="contents/Photos/Artifact/IMG_20240421_231059936.jpg" alt="Leaf and gold resin artifact with writing" loading="lazy">
-    <figcaption>Another artifact from the same batch</figcaption>
-  </figure>
-  <figure>
-    <img src="contents/Photos/Making/IMG_20250607_211206171.jpg" alt="Holding a handmade pottery bowl" loading="lazy">
+    <img src="contents/Photos/Making/pottery-bettys-ceramics-club.jpg" alt="Holding a handmade pottery bowl" loading="lazy">
     <figcaption>Pottery at Betty's Ceramics Club</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/Making/IMG_0853.JPG" alt="Decorated gingerbread houses" loading="lazy">
+    <img src="contents/Photos/Making/bridgewater-house-building-event.jpg" alt="Decorated gingerbread houses" loading="lazy">
     <figcaption>House-building at Bridgewater Associates company event</figcaption>
+  </figure>
+</div>
+
+#### Some of my Favorite Artifacts
+
+<div class="hobby-gallery">
+  <figure>
+    <img src="contents/Photos/Artifact/sincerity-and-diligence-artifact.jpg" alt="Leaf and gold resin artifact" loading="lazy">
+    <figcaption>"Sincerity and Diligence"</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Artifact/second-leaf-gold-artifact.jpg" alt="Leaf and gold resin artifact with writing" loading="lazy">
+    <figcaption>Another artifact from the same batch</figcaption>
   </figure>
 </div>
 
@@ -76,7 +81,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery hobby-gallery-one">
   <figure>
-    <img src="contents/Photos/Logic/IMG_20210618_143229.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
+    <img src="contents/Photos/Logic/schola-logicae-oxford.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
     <figcaption>Me at Oxford during Covid</figcaption>
   </figure>
 </div>
