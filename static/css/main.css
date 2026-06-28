@@ -205,6 +205,23 @@ section .main-body{
     line-height: 1.85rem;
 }
 
+.publication-abstract {
+    margin: 1.1rem 0;
+}
+
+.publication-abstract summary {
+    cursor: pointer;
+    color: var(--bs-body-color);
+}
+
+.publication-abstract summary:hover {
+    color: var(--accent-color);
+}
+
+.publication-abstract p {
+    margin: 0.85rem 0 0 1.2rem;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfb, #ffffff) !important;
