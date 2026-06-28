@@ -10,6 +10,8 @@ const scripts = read('static/js/scripts.js');
 const mainCss = read('static/css/main.css');
 const config = read('contents/config.yml');
 const gitignore = read('.gitignore');
+const robots = read('robots.txt');
+const sitemap = read('sitemap.xml');
 
 function countMatches(text, pattern) {
   return [...text.matchAll(pattern)].length;
@@ -81,7 +83,13 @@ assert.match(mainCss, /\.page-skeleton\s*\{[\s\S]*top:\s*25rem/, 'section skelet
 assert.match(mainCss, /\.page-skeleton\s*\{[\s\S]*padding-top:\s*2\.4rem/, 'section skeleton placeholders should sit one text line lower');
 assert.match(mainCss, /\.site-loading \.top-section\s*\{[\s\S]*linear-gradient/, 'hero background should keep a loading placeholder');
 assert.match(mainCss, /\.site-loading \.top-section::after\s*\{[\s\S]*animation:\s*skeleton-shimmer/, 'hero background placeholder should shimmer while loading');
-assert.match(index, /id="page-top-title"[^>]*>\s*&nbsp;\s*<\/a>/, 'navbar brand should reserve initial height before config loads');
+assert.match(index, /id="page-top-title"[^>]*>\s*Yao Fan\s*<\/a>/, 'navbar brand should expose the site owner before config loads');
+assert.match(index, /<link[^>]+rel="canonical"[^>]+href="https:\/\/yao-fan\.github\.io\/"/, 'page should expose a canonical homepage URL');
+assert.match(index, /application\/ld\+json/, 'page should expose structured data for search engines');
+assert.match(index, /"@type":\s*"Person"/, 'structured data should identify the homepage owner as a person');
+assert.match(index, /<meta[^>]+name="robots"[^>]+content="index, follow"/, 'page should explicitly allow indexing');
+assert.match(robots, /Sitemap:\s*https:\/\/yao-fan\.github\.io\/sitemap\.xml/, 'robots.txt should advertise the sitemap');
+assert.match(sitemap, /<loc>https:\/\/yao-fan\.github\.io\/<\/loc>/, 'sitemap should include the canonical homepage URL');
 assert.match(mainCss, /\.page-skeleton\s*\{[\s\S]*z-index:\s*8000/, 'section skeleton should stay below the avatar layer');
 assert.match(mainCss, /#avatar\s*\{[\s\S]*z-index:\s*9000/, 'avatar should stay above the section skeleton while loading');
 assert.match(mainCss, /\.skeleton-block\s*\{[\s\S]*max-width:\s*100%/, 'skeleton blocks should never overflow their container');
