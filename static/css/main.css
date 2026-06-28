@@ -229,10 +229,6 @@ section .main-body{
     margin: 1rem 0 2.1rem;
 }
 
-.hobby-gallery-two {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
-}
-
 .hobby-gallery-one {
     grid-template-columns: minmax(0, 32rem);
 }

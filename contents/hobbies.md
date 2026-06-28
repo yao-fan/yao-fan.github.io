@@ -1,4 +1,4 @@
-Outside work, I like hobbies that make me move, improvise, and occasionally get covered in mud, chalk, paint, or clay.
+Outside work, I like hobbies that make me move, improvise, and occasionally get covered in mud, chalk, paint, clay, or resin.
 
 #### Mountain Biking
 
@@ -53,13 +53,21 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 #### Non-Conceptual Material Engineering
 
-<div class="hobby-gallery hobby-gallery-two">
+<div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/IMG_20250607_211206171.jpg" alt="Holding a handmade pottery bowl" loading="lazy">
+    <img src="contents/Photos/Artifact/IMG_20240421_231039844.jpg" alt="Leaf and gold resin artifact" loading="lazy">
+    <figcaption>Artifact with a leaf and gold flakes</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Artifact/IMG_20240421_231059936.jpg" alt="Leaf and gold resin artifact with writing" loading="lazy">
+    <figcaption>Another artifact from the same batch</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Making/IMG_20250607_211206171.jpg" alt="Holding a handmade pottery bowl" loading="lazy">
     <figcaption>Pottery at Betty's Ceramics Club</figcaption>
   </figure>
   <figure>
-    <img src="contents/Photos/IMG_0853.JPG" alt="Decorated gingerbread houses" loading="lazy">
+    <img src="contents/Photos/Making/IMG_0853.JPG" alt="Decorated gingerbread houses" loading="lazy">
     <figcaption>House-building at Bridgewater Associates company event</figcaption>
   </figure>
 </div>
@@ -68,7 +76,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery hobby-gallery-one">
   <figure>
-    <img src="contents/Photos/IMG_20210618_143229.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
+    <img src="contents/Photos/Logic/IMG_20210618_143229.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
     <figcaption>Me at Oxford during Covid</figcaption>
   </figure>
 </div>
