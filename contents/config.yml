@@ -30,3 +30,7 @@ sections:
     nav: AWARDS
     title: AWARDS
     icon: bi-award-fill
+  - id: hobbies
+    nav: HOBBIES
+    title: HOBBIES
+    icon: bi-camera-fill
