@@ -1,4 +1,4 @@
-My research applies formal methods (especially Game Theory and Decision Theory) to the study of **Epistemic Systems**, which are systems that serve an epitemic purpose. More systems serve an epistemic purpose than one may expect. Some systems I have studied include **Expert System**, **Election**, **Financial Markets** and **Systems of AIs**. 
+My research applies formal methods (especially Game Theory and Decision Theory) to the study of **Epistemic Systems**, which are systems that serve an epitemic purpose. More systems serve an epistemic purpose than one may expect. Some systems I have studied include **The Scientific Community**, **Expert System**, **Election**, **Financial Markets** and **Systems of AIs**. 
 I'm also interested in general philosophy of science (esp. induction and causation), history of modern philosophy (esp. Kant) and theories of justice.  
 
 **Areas of Specialization:** Philosophy of AI; Social Epistemology; Game Theory; Decision Theory; Theories of Justice; Philosophy of Economics; Logic.
