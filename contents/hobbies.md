@@ -36,7 +36,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 #### Climbing
 
-<div class="hobby-gallery">
+<div class="hobby-gallery hobby-gallery-three">
   <figure>
     <img src="contents/Photos/Climbing/climbing-wall-getting-down.jpg" alt="Me getting down a climbing wall" loading="lazy">
     <figcaption>Me getting down a climbing wall..</figcaption>
@@ -48,6 +48,10 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
   <figure>
     <img src="contents/Photos/Climbing/climbing-wall-further-down.jpg" alt="Further down a climbing wall" loading="lazy">
     <figcaption>further down</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Climbing/do-not-climb.jpg" alt="Climbing near a do not climb sign" loading="lazy">
+    <figcaption>Do not climb</figcaption>
   </figure>
 </div>
 
@@ -79,7 +83,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 #### Some Professional Credentials
 
-<div class="hobby-gallery hobby-gallery-one">
+<div class="hobby-gallery hobby-gallery-two hobby-gallery-portrait">
   <figure>
     <img src="contents/Photos/Logic/schola-logicae-oxford.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
     <figcaption>Me at Oxford "School of Logic" during Covid</figcaption>

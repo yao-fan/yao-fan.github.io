@@ -233,6 +233,14 @@ section .main-body{
     grid-template-columns: minmax(0, 32rem);
 }
 
+.hobby-gallery-two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hobby-gallery-three {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .hobby-gallery figure {
     margin: 0;
 }
@@ -255,6 +263,17 @@ section .main-body{
 
 .hobby-gallery-one img {
     aspect-ratio: 3 / 4;
+}
+
+.hobby-gallery-portrait img {
+    aspect-ratio: 3 / 4;
+}
+
+@media screen and (max-width: 767px) {
+    .hobby-gallery-two,
+    .hobby-gallery-three {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 575px) {
