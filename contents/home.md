@@ -1,6 +1,6 @@
 I am a philosopher working at the intersection of Social Epistemology and Philosophy of AI. 
 
-I graduated from [University of Pittsburgh](https://www.pitt.edu/) with a PhD in [Philosophy](https://www.philosophy.pitt.edu/) and an MSc in [Intelligent Systems](https://www.isp.pitt.edu/). Before coming to Pitt, I got a BA (First Class Honours) in Philosophy from [Australian National University](https://www.anu.edu.au/) and a BA in Mathematics from [the University of Sydney](https://www.sydney.edu.au/). I was quite interested in Representation Theory of Finite Groups back then. 
+I graduated from [University of Pittsburgh](https://www.pitt.edu/) with a PhD in [Philosophy](https://www.philosophy.pitt.edu/) and an MSc in [Intelligent Systems](https://www.isp.pitt.edu/). Before coming to Pitt, I got a BA with First Class Honours in Philosophy from [Australian National University](https://www.anu.edu.au/) and a BA in Mathematics from [the University of Sydney](https://www.sydney.edu.au/). I was quite interested in Representation Theory of Finite Groups back then. 
 
 From 2023 to 2025, I worked as an Investment Associate at [Bridgewater Associates](https://www.bridgewater.com/). 
 
