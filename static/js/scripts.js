@@ -160,8 +160,31 @@ function renderSections(sections) {
         body.id = section.id + '-md';
 
         header.appendChild(title);
-        container.appendChild(header);
-        container.appendChild(body);
+
+        if (section.id === 'home') {
+            const profileLayout = document.createElement('div');
+            const profileCopy = document.createElement('div');
+            const profilePhoto = document.createElement('div');
+            const avatar = document.getElementById('avatar');
+
+            profileLayout.className = 'home-profile';
+            profileCopy.className = 'home-profile-copy';
+            profilePhoto.className = 'home-profile-photo';
+
+            profileCopy.appendChild(header);
+            profileCopy.appendChild(body);
+
+            profileLayout.appendChild(profileCopy);
+            if (avatar) {
+                profilePhoto.appendChild(avatar);
+                profileLayout.appendChild(profilePhoto);
+            }
+
+            container.appendChild(profileLayout);
+        } else {
+            container.appendChild(header);
+            container.appendChild(body);
+        }
         sectionElement.appendChild(container);
         sectionsContainer.appendChild(sectionElement);
     });

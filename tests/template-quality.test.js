@@ -44,6 +44,9 @@ assert.equal(/<img\b[^>]*\bsrc="static\/assets\/img\/photo\.png"[^>]*\bwidth=/.t
 assert.equal(/<img\b[^>]*\bsrc="static\/assets\/img\/photo\.png"[^>]*\bheight=/.test(index), false, 'avatar image should not force a fixed height attribute');
 assert.match(mainCss, /#avatar img[\s\S]*height:\s*auto/, 'avatar CSS should preserve the original image ratio');
 assert.match(mainCss, /#avatar img[\s\S]*width:\s*clamp\(190px,\s*22vw,\s*300px\)/, 'avatar should keep responsive sizing with a larger desktop maximum');
+assert.match(scripts, /home-profile/, 'home section should render a profile layout for bio and portrait');
+assert.match(mainCss, /\.home-profile\s*\{[\s\S]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s*minmax\(220px,\s*300px\)/, 'home profile should place bio and portrait side by side on desktop');
+assert.match(mainCss, /#avatar\s*\{[\s\S]*float:\s*none/, 'avatar should not float over the bio text');
 assert.match(mainCss, /\.top-section[\s\S]*height:\s*25rem/, 'hero should keep its full original height');
 assert.match(gitignore, /^\.superpowers\/$/m, '.superpowers companion artifacts should be ignored');
 assert.equal(/getElementById\(key\)\.innerHTML\s*=\s*yml\[key\]/.test(scripts), false, 'YAML config values should not be injected with innerHTML');

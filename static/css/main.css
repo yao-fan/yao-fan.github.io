@@ -315,14 +315,27 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
+.home-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+    gap: clamp(2rem, 5vw, 4.5rem);
+    align-items: start;
+}
+
+.home-profile-copy {
+    min-width: 0;
+}
+
+.home-profile-photo {
+    display: flex;
+    justify-content: flex-end;
+}
 
 #avatar {
     position: relative;
-    height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
-    max-width: 55em;
-    margin: 0 1.5rem 0 0;
-    float: right;
+    max-width: 300px;
+    margin: 0;
+    float: none;
     z-index: 9000;
 }
 
@@ -342,8 +355,13 @@ section .main-body{
 }
 
 @media screen and (max-width: 991px) {
-    #avatar {
-        margin: 0;
+    .home-profile {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .home-profile-photo {
+        justify-content: flex-start;
     }
 }
 
