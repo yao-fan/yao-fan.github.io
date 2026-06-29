@@ -43,7 +43,7 @@ assert.match(mainCss, /prefers-reduced-motion:\s*reduce/, 'slideshow should resp
 assert.equal(/<img\b[^>]*\bsrc="static\/assets\/img\/photo\.png"[^>]*\bwidth=/.test(index), false, 'avatar image should not force a fixed width attribute');
 assert.equal(/<img\b[^>]*\bsrc="static\/assets\/img\/photo\.png"[^>]*\bheight=/.test(index), false, 'avatar image should not force a fixed height attribute');
 assert.match(mainCss, /#avatar img[\s\S]*height:\s*auto/, 'avatar CSS should preserve the original image ratio');
-assert.match(mainCss, /#avatar img[\s\S]*width:\s*min\(180px,\s*max\(130px,\s*calc\(100vw \/ 6\)\)\)/, 'avatar should keep responsive sizing with a smaller desktop maximum');
+assert.match(mainCss, /#avatar img[\s\S]*width:\s*clamp\(190px,\s*22vw,\s*300px\)/, 'avatar should keep responsive sizing with a larger desktop maximum');
 assert.match(mainCss, /\.top-section[\s\S]*height:\s*25rem/, 'hero should keep its full original height');
 assert.match(gitignore, /^\.superpowers\/$/m, '.superpowers companion artifacts should be ignored');
 assert.equal(/getElementById\(key\)\.innerHTML\s*=\s*yml\[key\]/.test(scripts), false, 'YAML config values should not be injected with innerHTML');

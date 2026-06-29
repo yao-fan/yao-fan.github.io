@@ -327,13 +327,13 @@ section .main-body{
 }
 
 #avatar img {
-    width: min(180px, max(130px, calc(100vw / 6)));
+    width: clamp(190px, 22vw, 300px);
     height: auto;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 #avatar figcaption {
-    width: min(180px, max(130px, calc(100vw / 6)));
+    width: clamp(190px, 22vw, 300px);
     margin-top: 0.35rem;
     color: #5f6868;
     font-size: 0.78rem;
