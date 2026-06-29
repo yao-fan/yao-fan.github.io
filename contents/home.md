@@ -1,13 +1,13 @@
 I am a philosopher working at the intersection of Philosophy, Economics and Artifical Intelligence. 
 
-I graduated from [University of Pittsburgh](https://www.pitt.edu/) with a PhD in [Philosophy](https://www.philosophy.pitt.edu/) and an MSc in [Intelligent Systems](https://www.isp.pitt.edu/). Before that, I got a BA with First Class Honours in Philosophy from [Australian National University](https://www.anu.edu.au/) and a BA in Mathematics and Philosophy from [the University of Sydney](https://www.sydney.edu.au/). I was quite interested in Representation Theory of Finite Groups back then. 
-
-From 2023 to 2025, I worked as a Research Associate at [Bridgewater Associates](https://www.bridgewater.com/). During my two-year tenure at Bridgewater, I worked for the research team of co-CIO [Bob Prince](https://www.bridgewater.com/people/bob-prince), oversaw portfolios for [Resiliency Alpha](https://www.bridgewater.com/fred-post), and helped launch the [All Weather ETF](https://www.ssga.com/us/en/intermediary/etfs/state-street-bridgewater-all-weather-etf-allw) in partnership with State Street. 
+I graduated from [University of Pittsburgh](https://www.pitt.edu/) in 2023 with a PhD in [Philosophy](https://www.philosophy.pitt.edu/) and an MSc in [Intelligent Systems](https://www.isp.pitt.edu/). Before that, I got a BA with First Class Honours in Philosophy from [Australian National University](https://www.anu.edu.au/) and a BA in Mathematics and Philosophy from [the University of Sydney](https://www.sydney.edu.au/). I was quite interested in Representation Theory of Finite Groups back then. 
 
 From 2025 to 2027, I'm a Postdoctoral Researcher at [Department of Philosophy, Sun Yat-sen University](https://philosophy.sysu.edu.cn/english).
 
+From 2023 to 2025, I worked as a Research Associate at [Bridgewater Associates](https://www.bridgewater.com/). During my two-year tenure at Bridgewater, I worked for the research team of co-CIO [Bob Prince](https://www.bridgewater.com/people/bob-prince), oversaw portfolios for [Resiliency Alpha](https://www.bridgewater.com/fred-post), and helped launch the [All Weather ETF](https://www.ssga.com/us/en/intermediary/etfs/state-street-bridgewater-all-weather-etf-allw) in partnership with State Street. 
+
 During my PhD, I worked as [Bob Brandom](https://sites.pitt.edu/~rbrandom/)'s research assistant, where I helped with the editorial work of [A Spirit of Trust](https://www.hup.harvard.edu/books/9780674976818) and participated in research on [Logical Expressivism](https://expressivelogic.wixsite.com/role). 
-I also worked in the joint lab of [Michael Lewis](https://sites.pitt.edu/~cmlewis/) (Pitt SCI) and [Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) (CMU Robotics), where I worked on artifical social intelligence and human-centered AI. 
+I also worked in the joint lab of [Michael Lewis](https://sites.pitt.edu/~cmlewis/) (Pitt SCI) and [Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) (CMU Robotics), where I conducted research on artifical social intelligence and human-centered AI. 
 
 #### Contact
 
