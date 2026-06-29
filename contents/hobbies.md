@@ -1,5 +1,3 @@
-Outside work, I like hobbies that make me move, improvise, and occasionally get covered in mud, chalk, paint, clay, or resin.
-
 #### Paintball
 
 <div class="hobby-gallery">
