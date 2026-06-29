@@ -6,7 +6,7 @@ Upon the completion of my PhD, I started I worked as a Research Associate at [Br
 
 I decided to return to the academia in 2025 and took up a 2-year postdoc in Philosohy at [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). **I'm on the job market this year looking for academic jobs starting in 2027.**
 
-During my PhD, I worked as [Bob Brandom](https://sites.pitt.edu/~rbrandom/)'s research assistant, where I helped with the editorial work of [A Spirit of Trust](https://www.hup.harvard.edu/books/9780674976818) and participated in research on [Logical Expressivism](https://expressivelogic.wixsite.com/role). 
+During my PhD, I worked as [Bob Brandom](https://sites.pitt.edu/~rbrandom/)'s research assistant, where I helped with the editorial work of [*A Spirit of Trust*](https://www.hup.harvard.edu/books/9780674976818) and participated in research on [Logical Expressivism](https://expressivelogic.wixsite.com/role). 
 I also worked in the joint lab of [Michael Lewis](https://sites.pitt.edu/~cmlewis/) (Pitt SCI) and [Katia Sycara](https://www.ri.cmu.edu/ri-faculty/katia-sycara/) (CMU Robotics), where I conducted research on artifical social intelligence and human-centered AI. 
 
 #### Contact
