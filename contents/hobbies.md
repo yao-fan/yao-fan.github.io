@@ -24,7 +24,7 @@
   </figure>
   <figure>
     <img src="contents/Photos/Climbing/climbing-wall-get-down.jpg" alt="Getting down a climbing wall" loading="lazy">
-    <figcaption>get down</figcaption>
+    <figcaption>down</figcaption>
   </figure>
   <figure>
     <img src="contents/Photos/Climbing/climbing-wall-further-down.jpg" alt="Further down a climbing wall" loading="lazy">
@@ -84,6 +84,6 @@
   </figure>
   <figure>
     <img src="contents/Photos/Logic/RenaissanceFaire.jpg" alt="At Schola Logicae in Oxford" loading="lazy">
-    <figcaption>Me at New Jersey Renaissance Faire</figcaption>
+    <figcaption>Me at New Jersey Renaissance Faire as a philosopher</figcaption>
   </figure>
 </div>

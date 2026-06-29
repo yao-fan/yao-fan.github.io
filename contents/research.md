@@ -13,4 +13,6 @@ The latter concerns how to design better AI systems from a social epistemic pers
 
 #### Dissertation
 
-**Individuals and Institutions: Essays on Social and Political Epistemic Systems**. University of Pittsburgh, 2023. Committee: James Shaw(co-chairs) and Kevin Zollman (CMU, co-chairs), Kevin Dorst (MIT), and Anil Gupta. [Pitt D-Scholarship](https://d-scholarship.pitt.edu/45322/)
+**Individuals and Institutions: Essays on Social and Political Epistemic Systems**. University of Pittsburgh, 2023. [Access Here](https://d-scholarship.pitt.edu/45322/). 
+
+Committee: [James Shaw](https://www.jshaw.net/) (co-chairs), [Kevin Zollman](https://www.kevinzollman.com/) (CMU, co-chairs), [Kevin Dorst](https://www.kevindorst.com/) (MIT), and [Anil Gupta](https://anilguptapitt.com/). 
