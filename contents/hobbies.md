@@ -4,7 +4,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 
 <div class="hobby-gallery">
   <figure>
-    <img src="contents/Photos/Mtb/me-after-snowshoe-ride.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
+    <img class="hobby-photo-top" src="contents/Photos/Mtb/me-after-snowshoe-ride.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
     <figcaption>Me after bike riding in Snowshoe, WV</figcaption>
   </figure>
   <figure>

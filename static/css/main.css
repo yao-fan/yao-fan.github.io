@@ -254,6 +254,10 @@ section .main-body{
     box-shadow: 0 0.45rem 1.4rem rgba(18, 32, 36, 0.14);
 }
 
+.hobby-gallery img.hobby-photo-top {
+    object-position: center top;
+}
+
 .hobby-gallery figcaption {
     margin-top: 0.45rem;
     color: #5f6868;
