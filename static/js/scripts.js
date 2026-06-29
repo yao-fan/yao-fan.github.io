@@ -159,8 +159,6 @@ function renderSections(sections) {
         body.className = 'main-body';
         body.id = section.id + '-md';
 
-        header.appendChild(title);
-
         if (section.id === 'home') {
             const profileLayout = document.createElement('div');
             const profileCopy = document.createElement('div');
@@ -171,7 +169,6 @@ function renderSections(sections) {
             profileCopy.className = 'home-profile-copy';
             profilePhoto.className = 'home-profile-photo';
 
-            profileCopy.appendChild(header);
             profileCopy.appendChild(body);
 
             profileLayout.appendChild(profileCopy);
@@ -182,6 +179,7 @@ function renderSections(sections) {
 
             container.appendChild(profileLayout);
         } else {
+            header.appendChild(title);
             container.appendChild(header);
             container.appendChild(body);
         }

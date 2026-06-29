@@ -45,6 +45,7 @@ assert.equal(/<img\b[^>]*\bsrc="static\/assets\/img\/photo\.png"[^>]*\bheight=/.
 assert.match(mainCss, /#avatar img[\s\S]*height:\s*auto/, 'avatar CSS should preserve the original image ratio');
 assert.match(mainCss, /#avatar img[\s\S]*width:\s*clamp\(190px,\s*22vw,\s*300px\)/, 'avatar should keep responsive sizing with a larger desktop maximum');
 assert.match(scripts, /home-profile/, 'home section should render a profile layout for bio and portrait');
+assert.doesNotMatch(scripts, /profileCopy\.appendChild\(header\)/, 'home profile should not repeat the owner name above the bio');
 assert.match(mainCss, /\.home-profile\s*\{[\s\S]*grid-template-columns:\s*minmax\(0,\s*1fr\)\s*minmax\(220px,\s*300px\)/, 'home profile should place bio and portrait side by side on desktop');
 assert.match(mainCss, /#avatar\s*\{[\s\S]*float:\s*none/, 'avatar should not float over the bio text');
 assert.match(mainCss, /\.top-section[\s\S]*height:\s*25rem/, 'hero should keep its full original height');
