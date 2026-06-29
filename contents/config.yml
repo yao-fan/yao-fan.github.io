@@ -31,6 +31,6 @@ sections:
     title: AWARDS
     icon: bi-award-fill
   - id: hobbies
-    nav: HOBBIES
-    title: HOBBIES
+    nav: LESS SERIOUS PHOTOS
+    title: Less Serious Photos
     icon: bi-camera-fill
