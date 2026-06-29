@@ -332,6 +332,15 @@ section .main-body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+#avatar figcaption {
+    width: min(180px, max(130px, calc(100vw / 6)));
+    margin-top: 0.35rem;
+    color: #5f6868;
+    font-size: 0.78rem;
+    line-height: 1.05rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
