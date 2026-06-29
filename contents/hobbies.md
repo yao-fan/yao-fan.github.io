@@ -1,22 +1,5 @@
 Outside work, I like hobbies that make me move, improvise, and occasionally get covered in mud, chalk, paint, clay, or resin.
 
-#### Mountain Biking
-
-<div class="hobby-gallery">
-  <figure>
-    <img class="hobby-photo-top" src="contents/Photos/Mtb/me-after-snowshoe-ride.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
-    <figcaption>Me after bike riding in Snowshoe, WV</figcaption>
-  </figure>
-  <figure>
-    <img src="contents/Photos/Mtb/bike-at-snowshoe.jpg" alt="Mountain bike on an outdoor trail" loading="lazy">
-    <figcaption>My bike after riding in Snowshoe, WV</figcaption>
-  </figure>
-  <figure>
-    <img src="contents/Photos/Mtb/three-means-of-transportation.jpg" alt="Mountain biking on a forest trail" loading="lazy">
-    <figcaption>Three means of transportation I own</figcaption>
-  </figure>
-</div>
-
 #### Paintball
 
 <div class="hobby-gallery">
@@ -30,7 +13,7 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
   </figure>
   <figure>
     <img src="contents/Photos/Paintball/paintball-surrender.jpg" alt="Paintball group or field moment" loading="lazy">
-    <figcaption>Surrender</figcaption>
+    <figcaption>Wait! I can explain..</figcaption>
   </figure>
 </div>
 
@@ -48,6 +31,23 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
   <figure>
     <img src="contents/Photos/Climbing/climbing-wall-further-down.jpg" alt="Further down a climbing wall" loading="lazy">
     <figcaption>further down</figcaption>
+  </figure>
+</div>
+
+#### Mountain Biking
+
+<div class="hobby-gallery">
+  <figure>
+    <img class="hobby-photo-top" src="contents/Photos/Mtb/me-after-snowshoe-ride.jpg" alt="Mountain biking gear and trail scenery" loading="lazy">
+    <figcaption>Me after bike riding in Snowshoe, WV</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Mtb/bike-at-snowshoe.jpg" alt="Mountain bike on an outdoor trail" loading="lazy">
+    <figcaption>My bike after riding in Snowshoe, WV</figcaption>
+  </figure>
+  <figure>
+    <img src="contents/Photos/Mtb/three-means-of-transportation.jpg" alt="Mountain biking on a forest trail" loading="lazy">
+    <figcaption>Three means of transportation I own</figcaption>
   </figure>
 </div>
 
@@ -69,11 +69,11 @@ Outside work, I like hobbies that make me move, improvise, and occasionally get 
 <div class="hobby-gallery">
   <figure>
     <img src="contents/Photos/Artifact/sincerity-and-diligence-artifact.jpg" alt="Leaf and gold resin artifact" loading="lazy">
-    <figcaption>Calligraphy: "惟诚惟勤"(Sincerity and Diligence), Seal:"烟士披里纯"(Inspiration)</figcaption>
+    <figcaption>Calligraphy: "惟诚惟勤" (Sincerity and Diligence); Seal: "烟士披里纯"(Inspiration)</figcaption>
   </figure>
   <figure>
     <img src="contents/Photos/Artifact/second-leaf-gold-artifact.jpg" alt="Leaf and gold resin artifact with writing" loading="lazy">
-    <figcaption>Calligraphy: "安得促膝，说彼平生"(If only we could draw close together, and speak of all our lives have been.), Seal:Two cats hugging</figcaption>
+    <figcaption>Calligraphy: "安得促膝，说彼平生" (If only we could draw close together, and speak of all our lives have been.); Seal: Two cats hugging</figcaption>
   </figure>
 </div>
 
