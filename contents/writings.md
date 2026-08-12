@@ -9,3 +9,19 @@
 <summary>H. Li, <strong>Yao Fan</strong>, K. Zheng, M. Lewis, and K. Sycara. "Personalized Decision Supports Based on Theory of Mind Modeling and Explainable Reinforcement Learning." <em>IEEE International Conference on Systems, Man, and Cybernetics</em> (2023). <a href="https://ieeexplore.ieee.org/document/10394414">IEEE</a> | <a href="https://arxiv.org/abs/2312.08397">arXiv</a></summary>
 <p><strong>Abstract.</strong> This paper proposes a personalized decision-support system combining Theory of Mind modeling with explainable reinforcement learning. The system uses reinforcement learning to recommend expert actions, a Theory of Mind model to infer users' mental states and decide when intervention is appropriate, and counterfactual explanations to make recommendations interpretable. Crowd-sourcing experiments in a simulated team decision-making task show that the approach improves task performance over baseline systems and can generalize across task environments and reinforcement-learning model structures.</p>
 </details>
+
+#### Under Review
+
+<details class="publication-abstract">
+<summary><strong>Yao Fan</strong>. "The Inapplicability of Nash Equilibrium to the Condorcet Jury Theorem, Or Why I'd Rather Vote Sincerely and So Should You." <a href="https://philarchive.org/archive/FANTIO-6">Preprint</a></summary>
+<p><strong>Abstract.</strong> This paper defends sincere voting in the Condorcet Jury Theorem. It argues that familiar objections to sincere voting depend on treating Nash equilibrium as the appropriate solution concept, challenges that assumption for large elections, and proposes focal-point reasoning as a better account of voter behavior.</p>
+</details>
+
+<p><strong>Yao Fan</strong>. A paper on algorithmic monoculture and group decision making.</p>
+
+#### Expository Notes
+
+<details class="publication-abstract">
+<summary><strong>Yao Fan</strong>. "A Note on Foundations of Statistics" (2019). <a href="static/assets/A-Note-on-Foundations-of-Statistics.pdf">PDF</a></summary>
+<p>An expository note based on Teddy Seidenfeld's Spring 2018 seminar at Carnegie Mellon University. It covers Savage's foundations of statistics, challenges to Savage's theory, convergence and consensus, de Finetti on probability, group decision, and departures from Savage's framework.</p>
+</details>

@@ -23,9 +23,9 @@ sections:
     nav: RESEARCH
     title: RESEARCH
     icon: bi-lightbulb-fill
-  - id: publications
-    nav: PUBLICATIONS
-    title: PUBLICATIONS
+  - id: writings
+    nav: WRITINGS
+    title: WRITINGS
     icon: bi-file-text-fill
   - id: awards
     nav: AWARDS

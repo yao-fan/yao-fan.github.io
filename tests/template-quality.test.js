@@ -12,6 +12,7 @@ const config = read('contents/config.yml');
 const gitignore = read('.gitignore');
 const robots = read('robots.txt');
 const sitemap = read('sitemap.xml');
+const writings = read('contents/writings.md');
 
 function countMatches(text, pattern) {
   return [...text.matchAll(pattern)].length;
@@ -60,10 +61,17 @@ assert.equal(/sections:\n(?:\s+-\s+\w+\n?)+$/m.test(config), false, 'sections sh
 assert.equal(/<ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">\s*<li/s.test(index), false, 'navigation items should be rendered from configuration');
 assert.match(index, /<main id="sections"><\/main>/, 'content sections should be rendered into a single sections container');
 assert.equal(/<section[^>]+id="home"/.test(index), false, 'home section should not be hard-coded in index.html');
-assert.equal(/<section[^>]+id="publications"/.test(index), false, 'publications section should not be hard-coded in index.html');
+assert.equal(/<section[^>]+id="writings"/.test(index), false, 'writings section should not be hard-coded in index.html');
 assert.equal(/<section[^>]+id="awards"/.test(index), false, 'awards section should not be hard-coded in index.html');
 assert.match(config, /sections:\n\s+-\s+id:\s+home[\s\S]*title:/, 'section entries should define display titles');
-assert.match(config, /id:\s+publications[\s\S]*icon:\s+bi-file-text-fill/, 'section icon should be configured as a Bootstrap Icons class');
+assert.match(config, /id:\s+writings[\s\S]*icon:\s+bi-file-text-fill/, 'section icon should be configured as a Bootstrap Icons class');
+assert.match(config, /id:\s+writings[\s\S]*nav:\s+WRITINGS[\s\S]*title:\s+WRITINGS/, 'writings should be labeled consistently in navigation and its section heading');
+assert.match(writings, /^#### Published$/m, 'writings should include a Published subsection');
+assert.match(writings, /^#### Under Review$/m, 'writings should include an Under Review subsection');
+assert.match(writings, /A paper on algorithmic monoculture and group decision making\./, 'under-review writings should include the algorithmic monoculture paper');
+assert.match(writings, /^#### Expository Notes$/m, 'writings should include an Expository Notes subsection');
+assert.match(writings, /static\/assets\/A-Note-on-Foundations-of-Statistics\.pdf/, 'the foundations of statistics note should link to its local PDF');
+assert.equal(fs.existsSync(path.join(root, 'static/assets/A-Note-on-Foundations-of-Statistics.pdf')), true, 'the linked foundations of statistics PDF should exist');
 assert.match(config, /id:\s+awards[\s\S]*icon:\s+bi-award-fill/, 'award icon should be configured as a Bootstrap Icons class');
 assert.match(scripts, /function\s+renderSections/, 'sections should be generated from configuration');
 assert.match(scripts, /bg-gradient-primary-to-secondary-light/, 'generated sections should include light background styling');
