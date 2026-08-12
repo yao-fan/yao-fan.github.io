@@ -27,6 +27,10 @@ sections:
     nav: WRITINGS
     title: WRITINGS
     icon: bi-file-text-fill
+  - id: talks
+    nav: TALKS
+    title: TALKS
+    icon: bi-mic-fill
   - id: awards
     nav: AWARDS
     title: AWARDS

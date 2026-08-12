@@ -11,6 +11,7 @@ The initial job-market version uses these sections:
 - **Home/About**: current position, research identity, contact links, education, and CV download.
 - **Research**: areas of specialization and competence, current research themes, and dissertation.
 - **Writings**: published work, papers under review, and expository notes with links to available manuscripts.
+- **Talks**: selected presentations with links to available handouts.
 - **Awards**: selected fellowships and scholarships.
 
 ## Editing
