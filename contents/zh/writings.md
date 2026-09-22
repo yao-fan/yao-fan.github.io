@@ -1,7 +1,7 @@
 #### 已发表论文
 
 <details class="publication-abstract">
-<summary><strong>范尧（Yao Fan）</strong>。“Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification”（如何规制策略性塑造过往表现的行为：帮助个体识别专家的制度性补救）。<em>Synthese</em>，第 208 卷，文章编号 11（2026 年）。<a href="https://doi.org/10.1007/s11229-026-05633-7">期刊页面</a> | <a href="https://philpapers.org/archive/FANRST.pdf">预印本（英文）</a></summary>
+<summary><strong>范尧（Yao Fan）</strong>。“Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification”（个体识别专家问题的制度性补救）。<em>Synthese</em>，第 208 卷，文章编号 11（2026 年）。<a href="https://doi.org/10.1007/s11229-026-05633-7">期刊页面</a> | <a href="https://philpapers.org/archive/FANRST.pdf">预印本（英文）</a></summary>
 <p><strong>摘要：</strong>非专家能否根据一个人过去的表现，判断此人是否值得信赖？本文通过三个数学模型说明，过往表现的记录确实有助于非专家作出更好的判断，但自称专家的人也可能有策略地塑造这些记录，进而影响非专家的选择。因此，即使相关记录已经公开，问题也并未完全解决。本文主张，仅靠非专家自身的推理不足以应对这一问题，还需要制度层面的规制。识别专家因而不仅是个体判断的问题，也是社会认识论需要从系统层面考察的问题。</p>
 </details>
 

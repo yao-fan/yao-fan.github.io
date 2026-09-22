@@ -1,4 +1,6 @@
-- **Global Priorities Institute Early Career Fellowship**, [Global Priorities Institute](https://www.globalprioritiesinstitute.org/), University of Oxford, 2021-2023. Award for promising early career researchers in philosophy and economics.
+- **Forethought Fellowship**, Forethought Foundation, Oxford, UK, 2021-2023. GBP 10,000 for research on distributed versus centralized decision-making in AI.
+
+- **Global Priorities Institute Early Career Summer Fellowship**, [Global Priorities Institute](https://www.globalprioritiesinstitute.org/), University of Oxford, summer 2021. Award for promising early career researchers in philosophy and economics.
 
 - **International Postgraduate Research Scholarship**, Australian National University, 2017-2020 (curtailed after transfer). Four-year merit-based scholarship for incoming international Ph.D. students.
 

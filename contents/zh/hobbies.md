@@ -1,4 +1,4 @@
-#### 彩弹运动
+#### 彩弹
 
 <div class="hobby-gallery">
   <figure>
@@ -51,7 +51,7 @@
 </div>
 -->
 
-#### 不玩概念，动手做点东西
+#### 非概念物质工程 (Non-Conceptual Material Engineering)
 
 <div class="hobby-gallery">
   <figure>
@@ -60,11 +60,11 @@
   </figure>
   <figure>
     <img src="contents/Photos/Making/bridgewater-house-building-event.jpg" alt="装饰好的姜饼屋" loading="lazy">
-    <figcaption>在桥水的公司活动上“盖房子”</figcaption>
+    <figcaption>在桥水的公司活动上“造房子”</figcaption>
   </figure>
 </div>
 
-#### 几件心爱的小物
+#### 艺术收藏
 
 <div class="hobby-gallery">
   <figure>
