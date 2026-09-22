@@ -18,12 +18,12 @@ The initial job-market version uses these sections:
 
 - Update navigation, page title, footer, background images, and section order in `contents/config.yml`.
 - Edit each section in the matching Markdown file under `contents/`.
-- The Simplified Chinese version uses `contents/zh/config.yml` and the matching Markdown files under `contents/zh/`. Update both languages when changing content; keep section IDs aligned.
+- The Simplified Chinese version uses `contents/zh/config.yml` and the matching Markdown files under `contents/zh/`. Update both languages when changing content; keep section IDs aligned. Preserve existing Chinese wording where the meaning still matches, including terminology such as “认识系统” and “算法同质化,” natural first-person prose, and informal photo captions. Label shared English documents explicitly in Chinese download links.
 - The top-right language switch links to `?lang=en` and `?lang=zh`, preserving the section anchor. English remains the default. Images and PDFs are shared, with paths relative to the site root (no duplicate assets). Linked PDFs remain in English.
 - Replace `static/assets/img/photo.png` with a headshot when one is available.
-- The English CV currently uses `static/assets/Yao-Fan-CV-en.pdf`; `static/assets/Yao-Fan-CV.pdf` remains the Chinese version's download while English updates are reviewed first.
-- The English research overview links to the full statement at `static/assets/Yao-Fan-Research-Statement.pdf`.
-- The English teaching section links to `static/assets/Yao-Fan-Teaching-Portfolio.pdf`. Teaching will be added to the Chinese version after the English review.
+- Both languages link to the current English CV at `static/assets/Yao-Fan-CV-en.pdf`.
+- Both research overviews link to the full statement at `static/assets/Yao-Fan-Research-Statement.pdf`.
+- Both teaching sections link to `static/assets/Yao-Fan-Teaching-Portfolio.pdf`.
 
 ## Local Preview
 

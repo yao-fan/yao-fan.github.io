@@ -69,24 +69,13 @@ test('language switch preserves deployment path, other parameters, and section',
 test('every section is translated and retains its references and assets', () => {
     const english = yaml.load(read('contents/config.yml'));
     const chinese = yaml.load(read('contents/zh/config.yml'));
-    assert.deepEqual(chinese.sections.map(s => s.id), english.sections.map(s => s.id).filter(id => id !== 'teaching'));
-    const references = text => [...text.matchAll(/(?:href|src)="([^"]+)"|\]\(([^)]+)\)/g)].map(m => m[1] || m[2]).sort();
+    assert.deepEqual(chinese.sections.map(s => s.id), english.sections.map(s => s.id));
+    const references = text => [...text.replace(/<!--[\s\S]*?-->/g, '').matchAll(/(?:href|src)="([^"]+)"|\]\(([^)]+)\)/g)].map(m => m[1] || m[2]).sort();
     for (const { id } of english.sections) {
         const original = read(`contents/${id}.md`);
-        if (id === 'teaching') {
-            for (const reference of references(original)) {
-                if (!/^[a-z]+:|^#/i.test(reference)) assert.ok(fs.existsSync(path.join(root, reference)), reference);
-            }
-            continue;
-        }
         const translated = read(`contents/zh/${id}.md`);
         assert.match(translated, /[\u4e00-\u9fff]/u);
-        // English documents are being updated before the Chinese version.
-        const englishReferences = references(original)
-            .filter(reference => reference !== 'static/assets/Yao-Fan-Research-Statement.pdf')
-            .map(reference => reference === 'static/assets/Yao-Fan-CV-en.pdf' ? 'static/assets/Yao-Fan-CV.pdf' : reference)
-            .sort();
-        assert.deepEqual(references(translated), englishReferences, `${id}: preserve references`);
+        assert.deepEqual(references(translated), references(original), `${id}: preserve references`);
         assert.equal((translated.match(/<details\b/g) || []).length, (original.match(/<details\b/g) || []).length);
         for (const reference of [...references(original), ...references(translated)]) {
             if (!/^[a-z]+:|^#/i.test(reference)) assert.ok(fs.existsSync(path.join(root, reference)), reference);

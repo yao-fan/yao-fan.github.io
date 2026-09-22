@@ -15,4 +15,4 @@
 PhilPeople：[yao-fan-1](https://philpeople.org/profiles/yao-fan-1)\
 LinkedIn：[yao-fan](https://www.linkedin.com/in/yao-fan/)\
 ORCID：[0000-0002-5660-3201](https://orcid.org/0000-0002-5660-3201)\
-个人简历：[下载 PDF（英文）](static/assets/Yao-Fan-CV.pdf)
+个人简历：[下载 PDF（英文）](static/assets/Yao-Fan-CV-en.pdf)

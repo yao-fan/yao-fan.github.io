@@ -32,6 +32,7 @@
   </figure>
 </div>
 
+<!-- 与英文版同步隐藏，保留原有译文。
 #### 山地骑行
 
 <div class="hobby-gallery">
@@ -48,6 +49,7 @@
     <figcaption>我的三种交通工具</figcaption>
   </figure>
 </div>
+-->
 
 #### 不玩概念，动手做点东西
 
@@ -75,6 +77,7 @@
   </figure>
 </div>
 
+<!-- 与英文版同步隐藏，保留原有译文。
 #### 晒晒“专业资质”
 
 <div class="hobby-gallery hobby-gallery-two hobby-gallery-portrait">
@@ -87,3 +90,4 @@
     <figcaption>在新泽西文艺复兴集市，本色出演一位哲学家</figcaption>
   </figure>
 </div>
+-->

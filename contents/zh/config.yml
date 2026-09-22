@@ -27,6 +27,10 @@ sections:
     nav: 论著
     title: 论文与文稿
     icon: bi-file-text-fill
+  - id: teaching
+    nav: 教学
+    title: 教学
+    icon: bi-mortarboard-fill
   - id: talks
     nav: 报告
     title: 学术报告
