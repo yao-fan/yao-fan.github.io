@@ -1,6 +1,52 @@
 
-const content_dir = 'contents/'
+let content_dir = 'contents/'
 const config_file = 'config.yml'
+let siteLanguage = 'en';
+
+function getSiteLanguage(search) {
+    return new URLSearchParams(search).get('lang') === 'zh' ? 'zh' : 'en';
+}
+
+function languageUrl(href, language) {
+    const url = new URL(href);
+    url.searchParams.set('lang', language);
+    return url.href;
+}
+
+function initLanguage() {
+    siteLanguage = getSiteLanguage(window.location.search);
+    content_dir = siteLanguage === 'zh' ? 'contents/zh/' : 'contents/';
+    document.documentElement.lang = siteLanguage === 'zh' ? 'zh-Hans' : 'en';
+    const chinese = siteLanguage === 'zh';
+    document.getElementById('language-switch').setAttribute('aria-label', chinese ? '选择语言' : 'Choose language');
+    const updateLinks = () => {
+        document.querySelectorAll('[data-language]').forEach(link => {
+            link.href = languageUrl(window.location.href, link.dataset.language);
+            if (link.dataset.language === siteLanguage) link.setAttribute('aria-current', 'true');
+            else link.removeAttribute('aria-current');
+        });
+    };
+    updateLinks();
+    window.addEventListener('hashchange', updateLinks);
+    document.querySelector('.navbar-toggler').setAttribute('aria-label', chinese ? '展开或收起导航' : 'Toggle navigation');
+    document.getElementById('menu-label').textContent = chinese ? '菜单' : 'MENU';
+    document.querySelector('#avatar img').alt = chinese ? '范尧的职业肖像照' : 'Professional portrait of Yao Fan';
+    document.querySelector('#avatar figcaption').textContent = chinese ? '一本正经的职业照' : 'serious professional photo';
+    const title = chinese ? '范尧 | 人工智能哲学与社会认识论' : 'Yao Fan | Philosophy of AI and Social Epistemology';
+    const description = chinese ? '范尧的学术主页：人工智能哲学、社会认识论、研究成果、报告与个人简历。' : 'Yao Fan is a philosopher working at the intersection of social epistemology and philosophy of AI. Academic homepage with research, writings, talks, and CV.';
+    const canonical = 'https://yao-fan.github.io/' + (chinese ? '?lang=zh' : '');
+    document.querySelector('link[rel="canonical"]').href = canonical;
+    document.querySelector('meta[property="og:url"]').content = canonical;
+    document.querySelectorAll('meta[property="og:title"], meta[name="twitter:title"]').forEach(meta => { meta.content = title; });
+    document.querySelectorAll('meta[name="description"], meta[property="og:description"], meta[name="twitter:description"]').forEach(meta => { meta.content = description; });
+}
+
+function fetchText(url) {
+    return fetch(url).then(response => {
+        if (!response.ok) throw new Error('Unable to load ' + url + ': ' + response.status);
+        return response.text();
+    });
+}
 
 const allowedUrlProtocols = ['http:', 'https:', 'mailto:', 'tel:'];
 const configOnlyKeys = ['nav', 'sections', 'backgrounds', 'background-interval-ms', 'background-overlay'];
@@ -287,13 +333,8 @@ function typesetMath() {
 }
 
 function loadConfig() {
-    return fetch(content_dir + config_file)
-        .then(response => response.text())
-        .then(text => jsyaml.load(text) || {})
-        .catch(error => {
-            console.log(error);
-            return {};
-        });
+    return fetchText(content_dir + config_file)
+        .then(text => jsyaml.load(text) || {});
 }
 
 function applyConfig(yml) {
@@ -330,8 +371,7 @@ function getConfiguredSections(yml) {
 }
 
 function loadMarkdownSection(name) {
-    return fetch(content_dir + name + '.md')
-        .then(response => response.text())
+    return fetchText(content_dir + name + '.md')
         .then(markdown => {
             const target = document.getElementById(name + '-md');
             if (!target) {
@@ -342,7 +382,11 @@ function loadMarkdownSection(name) {
             const html = sanitizeMarkdownHtml(marked.parse(markdown));
             target.innerHTML = html;
         })
-        .catch(error => console.log(error));
+        .catch(error => {
+            console.error(error);
+            const target = document.getElementById(name + '-md');
+            if (target) target.textContent = siteLanguage === 'zh' ? '此部分暂时无法加载，请刷新页面重试。' : 'This section could not be loaded. Please refresh to try again.';
+        });
 }
 
 function markSiteReady() {
@@ -351,6 +395,7 @@ function markSiteReady() {
 }
 
 window.addEventListener('DOMContentLoaded', event => {
+    initLanguage();
     marked.use({ mangle: false, headerIds: false });
 
     loadConfig()
@@ -366,8 +411,15 @@ window.addEventListener('DOMContentLoaded', event => {
 
             return Promise.all(getConfiguredSections(yml).map(loadMarkdownSection));
         })
-        .then(() => typesetMath())
-        .catch(error => console.log(error))
+        .then(() => {
+            const target = document.getElementById(window.location.hash.slice(1));
+            if (target) target.scrollIntoView();
+            return typesetMath();
+        })
+        .catch(error => {
+            console.error(error);
+            document.getElementById('sections').textContent = siteLanguage === 'zh' ? '页面暂时无法加载，请刷新页面重试。' : 'The page could not be loaded. Please refresh to try again.';
+        })
         .finally(() => markSiteReady());
 
 }); 

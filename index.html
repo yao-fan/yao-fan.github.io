@@ -9,6 +9,9 @@
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="Yao Fan, Yao Fan philosophy, philosophy of AI, social epistemology, game theory, decision theory, philosophy of economics" />
     <link rel="canonical" href="https://yao-fan.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://yao-fan.github.io/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://yao-fan.github.io/?lang=zh" />
+    <link rel="alternate" hreflang="x-default" href="https://yao-fan.github.io/" />
     <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://yao-fan.github.io/" />
     <meta property="og:title" content="Yao Fan | Philosophy of AI and Social Epistemology" />
@@ -145,17 +148,21 @@
     </div>
 
     <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+    <nav class="header navbar navbar-expand-xl navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">Yao Fan</a>
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
+                <span id="menu-label">MENU</span>
                 <i class="bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul id="navbar-items" class="navbar-nav ms-auto me-4 my-3 my-lg-0"></ul>
+            </div>
+            <div id="language-switch" class="language-switch" role="group" aria-label="Choose language">
+                <a href="?lang=en" data-language="en" lang="en" hreflang="en" aria-current="true">EN</a>
+                <a href="?lang=zh" data-language="zh" lang="zh-Hans" hreflang="zh-Hans">中文</a>
             </div>
         </div>
     </nav>

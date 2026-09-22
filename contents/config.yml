@@ -27,6 +27,10 @@ sections:
     nav: WRITINGS
     title: WRITINGS
     icon: bi-file-text-fill
+  - id: teaching
+    nav: TEACHING
+    title: TEACHING
+    icon: bi-mortarboard-fill
   - id: talks
     nav: TALKS
     title: TALKS

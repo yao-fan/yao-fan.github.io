@@ -15,4 +15,4 @@ Email: [yao.fan@pitt.edu](mailto:yao.fan@pitt.edu)\
 PhilPeople: [yao-fan-1](https://philpeople.org/profiles/yao-fan-1)\
 LinkedIn: [yao-fan](https://www.linkedin.com/in/yao-fan/)\
 ORCID: [0000-0002-5660-3201](https://orcid.org/0000-0002-5660-3201)\
-CV: [Download PDF](static/assets/Yao-Fan-CV.pdf)
+CV: [Download PDF](static/assets/Yao-Fan-CV-en.pdf)

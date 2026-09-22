@@ -32,6 +32,7 @@
   </figure>
 </div>
 
+<!-- Hidden from the English photo section.
 #### Mountain Biking
 
 <div class="hobby-gallery">
@@ -48,6 +49,7 @@
     <figcaption>Three means of transportation I own</figcaption>
   </figure>
 </div>
+-->
 
 #### Non-Conceptual Material Engineering
 
@@ -75,6 +77,7 @@
   </figure>
 </div>
 
+<!-- Hidden from the English photo section.
 #### Some Professional Credentials
 
 <div class="hobby-gallery hobby-gallery-two hobby-gallery-portrait">
@@ -87,3 +90,4 @@
     <figcaption>Me at New Jersey Renaissance Faire as a philosopher</figcaption>
   </figure>
 </div>
+-->

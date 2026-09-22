@@ -18,8 +18,12 @@ The initial job-market version uses these sections:
 
 - Update navigation, page title, footer, background images, and section order in `contents/config.yml`.
 - Edit each section in the matching Markdown file under `contents/`.
+- The Simplified Chinese version uses `contents/zh/config.yml` and the matching Markdown files under `contents/zh/`. Update both languages when changing content; keep section IDs aligned.
+- The top-right language switch links to `?lang=en` and `?lang=zh`, preserving the section anchor. English remains the default. Images and PDFs are shared, with paths relative to the site root (no duplicate assets). Linked PDFs remain in English.
 - Replace `static/assets/img/photo.png` with a headshot when one is available.
-- Replace `static/assets/Yao-Fan-CV.pdf` whenever the CV changes.
+- The English CV currently uses `static/assets/Yao-Fan-CV-en.pdf`; `static/assets/Yao-Fan-CV.pdf` remains the Chinese version's download while English updates are reviewed first.
+- The English research overview links to the full statement at `static/assets/Yao-Fan-Research-Statement.pdf`.
+- The English teaching section links to `static/assets/Yao-Fan-Teaching-Portfolio.pdf`. Teaching will be added to the Chinese version after the English review.
 
 ## Local Preview
 
@@ -30,6 +34,8 @@ python -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
+Open `http://localhost:8000/?lang=zh` for Chinese. Run the checks with `node --test tests/*.test.js`.
 
 ## License
 

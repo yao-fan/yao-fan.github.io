@@ -1,0 +1,41 @@
+title: 范尧 | 人工智能哲学与社会认识论
+page-top-title: 范尧 | Yao Fan
+top-section-bg-text: 范尧 | Yao Fan
+top-section-subtitle: 社会认识论与人工智能哲学研究者
+backgrounds:
+  - static/assets/background/background_0.jpeg
+  - static/assets/background/background_1.jpeg
+background-interval-ms: 7000
+background-overlay: 0.58
+copyright-text: '&copy; 范尧 2026。本站基于 Sen Li 的学术主页模板。'
+github-link:
+  text: GitHub
+  href: https://github.com/yao-fan
+license-link:
+  text: 许可协议
+  href: https://github.com/yao-fan/yao-fan.github.io/blob/main/LICENSE
+sections:
+  - id: home
+    nav: 首页
+    title: 范尧
+    href: '#page-top'
+  - id: research
+    nav: 研究
+    title: 研究方向
+    icon: bi-lightbulb-fill
+  - id: writings
+    nav: 论著
+    title: 论文与文稿
+    icon: bi-file-text-fill
+  - id: talks
+    nav: 报告
+    title: 学术报告
+    icon: bi-mic-fill
+  - id: awards
+    nav: 奖项
+    title: 奖项与资助
+    icon: bi-award-fill
+  - id: hobbies
+    nav: 生活掠影
+    title: 学术之外
+    icon: bi-camera-fill
