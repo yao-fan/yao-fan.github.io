@@ -277,6 +277,11 @@ section .main-body{
     color: var(--accent-color);
 }
 
+.publication-meta {
+    display: block;
+    margin-inline-start: 1.2rem;
+}
+
 .publication-abstract p {
     margin: 0.85rem 0 0 1.2rem;
 }
