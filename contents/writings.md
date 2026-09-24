@@ -1,7 +1,7 @@
 #### Published
 
 <details class="publication-abstract">
-<summary><strong>Yao Fan</strong>. "Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification."<span class="publication-meta"><em>Synthese</em> 208, article 11 (2026). <a href="https://doi.org/10.1007/s11229-026-05633-7">Publisher</a> | <a href="https://philpapers.org/archive/FANRST.pdf">Preprint</a></span></summary>
+<summary><strong>Yao Fan</strong>. "Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification."<span class="publication-meta"><em>Synthese</em> 208, article 11 (2026). <a href="https://doi.org/10.1007/s11229-026-05633-7">Publisher</a> | <a href="https://philpapers.org/archive/FANRST.pdf">Preprint</a> | <a href="static/assets/Expert-Identification-Slides.pdf">Slides (PDF)</a></span></summary>
 <p><strong>Abstract.</strong> This paper examines strategic track-record building in expert identification. Using three mathematical models, it argues that track records can improve novices' epistemic performance, but purported experts can also strategically shape those records to influence novices' decisions even when track-record information is available. The paper argues that this problem cannot be solved by individual novice reasoning alone and instead requires institutional-level regulation, making expert identification a problem for system-oriented social epistemology.</p>
 </details>
 
@@ -13,7 +13,7 @@
 #### Under Review
 
 <details class="publication-abstract">
-<summary><strong>Yao Fan</strong>. "The Inapplicability of Nash Equilibrium to the Condorcet Jury Theorem, Or Why I'd Rather Vote Sincerely and So Should You." <a href="https://philarchive.org/archive/FANTIO-6">Preprint</a></summary>
+<summary><strong>Yao Fan</strong>. "The Inapplicability of Nash Equilibrium to the Condorcet Jury Theorem, Or Why I'd Rather Vote Sincerely and So Should You." <a href="https://philarchive.org/archive/FANTIO-6">Preprint</a> | <a href="static/assets/Sincere-Voting-Slides.pdf">Slides (PDF)</a></summary>
 <p><strong>Abstract.</strong> This paper defends sincere voting in the Condorcet Jury Theorem. It argues that familiar objections to sincere voting depend on treating Nash equilibrium as the appropriate solution concept, challenges that assumption for large elections, and proposes focal-point reasoning as a better account of voter behavior.</p>
 </details>
 

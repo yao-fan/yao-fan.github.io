@@ -1,7 +1,7 @@
 #### 已发表论文
 
 <details class="publication-abstract">
-<summary><strong>范尧（Yao Fan）</strong>。“Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification”（个体识别专家问题的制度性补救）。<span class="publication-meta"><em>Synthese</em>，第 208 卷，文章编号 11（2026 年）。<a href="https://doi.org/10.1007/s11229-026-05633-7">期刊页面</a> | <a href="https://philpapers.org/archive/FANRST.pdf">预印本（英文）</a></span></summary>
+<summary><strong>范尧（Yao Fan）</strong>。“Regulating Strategic Track-Record Building: Institutional Remedies for Individual Expert Identification”（个体识别专家问题的制度性补救）。<span class="publication-meta"><em>Synthese</em>，第 208 卷，文章编号 11（2026 年）。<a href="https://doi.org/10.1007/s11229-026-05633-7">期刊页面</a> | <a href="https://philpapers.org/archive/FANRST.pdf">预印本（英文）</a> | <a href="static/assets/Expert-Identification-Slides.pdf">幻灯片（英文 PDF）</a></span></summary>
 <p><strong>摘要：</strong>非专家能否根据一个人过去的表现，判断此人是否值得信赖？本文通过三个数学模型说明，过往表现的记录确实有助于非专家作出更好的判断，但自称专家的人也可能有策略地塑造这些记录，进而影响非专家的选择。因此，即使相关记录已经公开，问题也并未完全解决。本文主张，仅靠非专家自身的推理不足以应对这一问题，还需要制度层面的规制。识别专家因而不仅是个体判断的问题，也是社会认识论需要从系统层面考察的问题。</p>
 </details>
 
@@ -13,7 +13,7 @@
 #### 审稿中
 
 <details class="publication-abstract">
-<summary><strong>范尧（Yao Fan）</strong>。“The Inapplicability of Nash Equilibrium to the Condorcet Jury Theorem, Or Why I'd Rather Vote Sincerely and So Should You”（为什么纳什均衡不适用于孔多塞陪审团定理——以及为什么你我都应真诚投票）。<a href="https://philarchive.org/archive/FANTIO-6">预印本（英文）</a></summary>
+<summary><strong>范尧（Yao Fan）</strong>。“The Inapplicability of Nash Equilibrium to the Condorcet Jury Theorem, Or Why I'd Rather Vote Sincerely and So Should You”（为什么纳什均衡不适用于孔多塞陪审团定理——以及为什么你我都应真诚投票）。<a href="https://philarchive.org/archive/FANTIO-6">预印本（英文）</a> | <a href="static/assets/Sincere-Voting-Slides.pdf">幻灯片（英文 PDF）</a></summary>
 <p><strong>摘要：</strong>本文为孔多塞陪审团定理中的真诚投票辩护。常见的反对意见有一个共同前提：纳什均衡是分析投票行为的恰当解概念。本文质疑这一前提在大规模选举中的适用性，并主张用焦点推理来解释选民行为更为合适。</p>
 </details>
 
