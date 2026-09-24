@@ -30,7 +30,7 @@ sections:
   - id: teaching
     nav: TEACHING
     title: TEACHING
-    icon: bi-mortarboard-fill
+    icon: bi-book-fill
   - id: talks
     nav: TALKS
     title: TALKS

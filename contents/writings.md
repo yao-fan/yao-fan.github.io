@@ -6,7 +6,7 @@
 </details>
 
 <details class="publication-abstract">
-<summary>H. Li, <strong>Yao Fan</strong>, K. Zheng, M. Lewis, and K. Sycara. "Personalized Decision Supports Based on Theory of Mind Modeling and Explainable Reinforcement Learning." <em>IEEE International Conference on Systems, Man, and Cybernetics</em> (2023). <a href="https://ieeexplore.ieee.org/document/10394414">IEEE</a> | <a href="https://arxiv.org/abs/2312.08397">arXiv</a></summary>
+<summary>H. Li, <strong>Yao Fan</strong>, K. Zheng, M. Lewis, and K. Sycara. "Personalized Decision Supports Based on Theory of Mind Modeling and Explainable Reinforcement Learning." <em>IEEE International Conference on Systems, Man, and Cybernetics</em> (2023). <a href="https://ieeexplore.ieee.org/document/10394414">IEEE</a> | <a href="https://arxiv.org/abs/2312.08397">arXiv</a> | <a href="static/assets/Personalized-Decision-Support-Chinese-Report.docx">Chinese report (DOCX)</a> | <a href="static/assets/Personalized-Decision-Support-Chinese-Slides.pdf">Chinese slides (PDF)</a></summary>
 <p><strong>Abstract.</strong> This paper proposes a personalized decision-support system combining Theory of Mind modeling with explainable reinforcement learning. The system uses reinforcement learning to recommend expert actions, a Theory of Mind model to infer users' mental states and decide when intervention is appropriate, and counterfactual explanations to make recommendations interpretable. Crowd-sourcing experiments in a simulated team decision-making task show that the approach improves task performance over baseline systems and can generalize across task environments and reinforcement-learning model structures.</p>
 </details>
 

@@ -6,8 +6,8 @@
 </details>
 
 <details class="publication-abstract">
-<summary>H. Li、<strong>范尧（Yao Fan）</strong>、K. Zheng、M. Lewis 与 K. Sycara。“Personalized Decision Supports Based on Theory of Mind Modeling and Explainable Reinforcement Learning”（基于心智理论建模与可解释强化学习的个性化决策支持）。<em>IEEE International Conference on Systems, Man, and Cybernetics</em>（2023 年）。<a href="https://ieeexplore.ieee.org/document/10394414">IEEE</a> | <a href="https://arxiv.org/abs/2312.08397">arXiv</a></summary>
-<p><strong>摘要：</strong>本文将心智理论建模与可解释强化学习相结合，提出一种个性化决策支持系统。系统利用强化学习给出专家级的行动建议，通过心智理论模型推断用户的心理状态、判断何时介入，并用反事实解释帮助用户理解建议的理由。基于模拟团队决策任务的众包实验表明，与基线系统相比，该方法能帮助用户更好地完成任务，也能适用于不同的任务环境和强化学习模型结构。</p>
+<summary>H. Li、<strong>范尧（Yao Fan）</strong>、K. Zheng、M. Lewis 与 K. Sycara。“Personalized Decision Supports Based on Theory of Mind Modeling and Explainable Reinforcement Learning”（基于心智理论建模与可解释强化学习的个性化决策支持）。<em>IEEE International Conference on Systems, Man, and Cybernetics</em>（2023 年）。<a href="https://ieeexplore.ieee.org/document/10394414">IEEE</a> | <a href="https://arxiv.org/abs/2312.08397">arXiv</a> | <a href="static/assets/Personalized-Decision-Support-Chinese-Report.docx">中文报告（DOCX）</a> | <a href="static/assets/Personalized-Decision-Support-Chinese-Slides.pdf">中文幻灯片（PDF）</a></summary>
+<p><strong>摘要：</strong>在人类社会活动中，人类几乎无时无刻不在推测他人乃至自己的信念、意向、以及其他心理状态。人类所具备的这种认知能力，被统称为心智理论 (Theory of Mind，亦称常识心理学 Folk Psychology) 。哲学界自20世纪下半叶以来，对心智理论多有探讨。贝叶斯心智理论是基于贝叶斯统计学的一种心智理论的具体模型。在此研究中，我与我的合作者将哲学研究中对心智理论和反事实解释的洞见应用在人工智能科学中，设计开发了一个融合了贝叶斯心智理论和可解释深度强化学习的个体化决策支持系统。我们利用贝叶斯网络为机器赋予心智理论的能力，从而实现对个体决策者行为的精准预测和有效干预。我们将这一系统应用在一个具体的动态决策问题中，并通过网络召集了247名被试来验证这一系统的有效性。我们实验数据表明拥有心智理论的机器能够更有效地辅助人类决策，帮助人工智能技术更好地以人为本发展。</p>
 </details>
 
 #### 审稿中

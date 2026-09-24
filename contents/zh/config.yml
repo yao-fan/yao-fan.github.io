@@ -30,7 +30,7 @@ sections:
   - id: teaching
     nav: 教学
     title: 教学
-    icon: bi-mortarboard-fill
+    icon: bi-book-fill
   - id: talks
     nav: 报告
     title: 学术报告
